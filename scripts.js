@@ -65,50 +65,7 @@ const BLOCKCHAIN_EXPLORERS = {
 /**
  * ABI needed to interpret how to interact with the contract
  */
-const CONTRACT_ABI = [
-
-			{
-				"inputs": [],
-				"name": "mining",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
-		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
-		},
-		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
-		}
-	},
-	"settings": {
-		"compilationTarget": {
-			"230103 채굴.sol": "MY"
-		},
-		"evmVersion": "london",
-		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
-		"optimizer": {
-			"enabled": false,
-			"runs": 200
-		},
-		"remappings": []
-	},
-	"sources": {
-		"230103 채굴.sol": {
-			"keccak256": "0xe53e7a3c7d626558896dfa0ca42c36de2adcffb1832df71086def105ac742d37",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://2315d2fe62949618febfd79a1a9eb531263769bd457dc84e4ba779bfb81a968e",
-				"dweb:/ipfs/QmXiQKWCB2jtJ14Vk3qisKBaFyB2DHeyAzKZ85cAxyrfL4"
-			
+const CONTRACT_ABI = [	
 ];
 
 // Functions
