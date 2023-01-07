@@ -66,43 +66,49 @@ const BLOCKCHAIN_EXPLORERS = {
  * ABI needed to interpret how to interact with the contract
  */
 const CONTRACT_ABI = [
-    {
-        "abi_decode_t_bool_fromMemory": {
-					"entryPoint": 565,
-					"id": null,
-					"parameterSlots": 2,
-					"returnSlots": 1
-				},
-				"abi_decode_tuple_t_bool_fromMemory": {
-					"entryPoint": 586,
-					"id": null,
-					"parameterSlots": 2,
-					"returnSlots": 1
-				},
-				"abi_encode_t_address_to_t_address_fromStack": {
-					"entryPoint": 444,
-					"id": null,
-					"parameterSlots": 2,
-					"returnSlots": 0
-				},
-				"abi_encode_t_uint256_to_t_uint256_fromStack": {
-					"entryPoint": 469,
-					"id": null,
-					"parameterSlots": 2,
-					"returnSlots": 0
-				},
-				"abi_encode_tuple_t_address_t_address_t_uint256__to_t_address_t_address_t_uint256__fromStack_reversed": {
-					"entryPoint": 631,
-					"id": null,
-					"parameterSlots": 4,
-					"returnSlots": 1
-				},
-				"abi_encode_tuple_t_address_t_uint256__to_t_address_t_uint256__fromStack_reversed": {
-					"entryPoint": 484,
-					"id": null,
-					"parameterSlots": 3,
-					"returnSlots": 1
-    }
+
+			{
+				"inputs": [],
+				"name": "mining",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"230103 채굴.sol": "MY"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"230103 채굴.sol": {
+			"keccak256": "0xe53e7a3c7d626558896dfa0ca42c36de2adcffb1832df71086def105ac742d37",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2315d2fe62949618febfd79a1a9eb531263769bd457dc84e4ba779bfb81a968e",
+				"dweb:/ipfs/QmXiQKWCB2jtJ14Vk3qisKBaFyB2DHeyAzKZ85cAxyrfL4"
+			
 ];
 
 // Functions
